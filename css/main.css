@@ -1,0 +1,112 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.row{
+	margin: 0;
+}
+
+.left-side{
+	height: 100vh;
+	background-color: #71C9F8;
+	z-index: -2;
+	overflow: hidden;
+}
+
+.twitter-back-logo{
+	top: -170px;
+	position: absolute;
+	color: #1DA1F2;
+	font-size: 65rem;
+	z-index: -1;
+}
+
+.para-holder{
+	position: relative;
+	width: 70%;
+	margin: 50% 0 0 70%;
+	transform: translate(-70%, -50%);
+}
+
+.para-holder p{
+	margin-bottom: 35px;
+	font-size: 1.3rem;
+	color: white;
+}
+
+.field-holder{
+	margin: 20px 0 0 50px;
+}
+
+.forget-pass{
+	display: block;
+	text-align: right;
+	position: relative;
+	font-size: 90%;
+	color: #1BA7EE;
+	right: 185px;
+}
+
+.forget-pass:hover{
+	color: #1BA7EE;
+}
+
+.info-con{
+	display: block;
+	text-align: left;
+	width: 60%;
+	margin: 30px auto;
+}
+
+.login-btn{
+	border-radius: 5000px;
+	margin: auto 0;
+	position: relative;
+	bottom: 15px;
+}
+
+.logo-info{
+	color: #1DA1F2;
+	margin-bottom: 20px;
+	font-size: 250%;
+}
+.join-text{
+	margin-top: 50px;
+	font-weight: 600;
+}
+.info-btn{
+	display: block;
+	border-radius: 500px;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.info{
+	font-family: "Segoe UI";
+	font-size: 200%;
+	font-weight: 700;
+}
+
+.field-box{
+	margin-right: 10px;
+	background-color: #F5F8FA;
+	display: inline-block;
+	padding: 5px 8px;
+	border-bottom: 2px solid #657786;
+	border-radius: 3px;
+}
+label{
+	font-family: "Lato";
+	margin-bottom: 0;
+	color: #657786;
+	display: block;
+}
+
+input{
+	border: 0px;
+	background-color: transparent;
+}
+
+
